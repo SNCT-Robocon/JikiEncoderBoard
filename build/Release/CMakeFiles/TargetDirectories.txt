@@ -1,0 +1,5 @@
+/home/roxy/cubemx_folder_v2/JikiEncoderBoard_v1/build/Release/CMakeFiles/JikiEncoderBoard_v1.dir
+/home/roxy/cubemx_folder_v2/JikiEncoderBoard_v1/build/Release/CMakeFiles/edit_cache.dir
+/home/roxy/cubemx_folder_v2/JikiEncoderBoard_v1/build/Release/CMakeFiles/rebuild_cache.dir
+/home/roxy/cubemx_folder_v2/JikiEncoderBoard_v1/build/Release/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/roxy/cubemx_folder_v2/JikiEncoderBoard_v1/build/Release/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

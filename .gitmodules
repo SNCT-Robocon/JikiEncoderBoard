@@ -1,0 +1,3 @@
+[submodule "UserCode/stmlib_v1"]
+	path = UserCode/stmlib_v1
+	url = git@github.com:SNCT-Robocon/stmlib_v1.git
