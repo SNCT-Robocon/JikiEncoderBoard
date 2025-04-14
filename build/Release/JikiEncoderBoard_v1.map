@@ -1330,7 +1330,7 @@ LOAD /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x4)
 
-.text           0x08000190     0x3fc4
+.text           0x08000190     0x3fb4
                 0x08000190                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000190       0x40 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -1352,534 +1352,534 @@ LOAD /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x0800032c       0x28 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
                 0x0800032c                std::_Function_handler<void (), void (*)()>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  .text._ZN8UserCode23timer_interruption_1kHzEv
-                0x08000354      0x120 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000354      0x110 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
                 0x08000354                UserCode::timer_interruption_1kHz()
  .text._ZN9stmlib_v112stlink_debag14transmit_debugEPKcz
-                0x08000474       0x38 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x08000474                stmlib_v1::stlink_debag::transmit_debug(char const*, ...)
+                0x08000464       0x38 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000464                stmlib_v1::stlink_debag::transmit_debug(char const*, ...)
  .text.wrap_cpp_main_while
-                0x080004ac        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x080004ac                wrap_cpp_main_while
+                0x0800049c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x0800049c                wrap_cpp_main_while
  .text.HAL_CAN_RxFifo0MsgPendingCallback
-                0x080004b0       0xa4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x080004b0                HAL_CAN_RxFifo0MsgPendingCallback
+                0x080004a0       0xa4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x080004a0                HAL_CAN_RxFifo0MsgPendingCallback
  .text.HAL_CAN_TxMailbox0CompleteCallback
-                0x08000554       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x08000554                HAL_CAN_TxMailbox0CompleteCallback
+                0x08000544       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000544                HAL_CAN_TxMailbox0CompleteCallback
  .text.HAL_CAN_TxMailbox1CompleteCallback
-                0x08000570       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x08000570                HAL_CAN_TxMailbox1CompleteCallback
+                0x08000560       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000560                HAL_CAN_TxMailbox1CompleteCallback
  .text.HAL_CAN_TxMailbox2CompleteCallback
-                0x0800058c       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x0800058c                HAL_CAN_TxMailbox2CompleteCallback
+                0x0800057c       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x0800057c                HAL_CAN_TxMailbox2CompleteCallback
  .text.HAL_TIM_PeriodElapsedCallback
-                0x080005a8       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x080005a8                HAL_TIM_PeriodElapsedCallback
+                0x08000598       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000598                HAL_TIM_PeriodElapsedCallback
  .text.HAL_I2C_MemRxCpltCallback
-                0x080005c4       0x60 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x080005c4                HAL_I2C_MemRxCpltCallback
+                0x080005b4       0x60 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x080005b4                HAL_I2C_MemRxCpltCallback
  .text._ZN8UserCode13cpp_main_initEv
-                0x08000624      0x124 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x08000624                UserCode::cpp_main_init()
+                0x08000614      0x124 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000614                UserCode::cpp_main_init()
  .text.wrap_cpp_main_init
-                0x08000748        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x08000748                wrap_cpp_main_init
+                0x08000738        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x08000738                wrap_cpp_main_init
  .text.startup._GLOBAL__sub_I__ZN9stmlib_v111can_comm_it5startEv
-                0x0800074c       0xd0 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x0800073c       0xd0 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
  .text.SystemClock_Config
-                0x0800081c       0x88 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/main.c.obj
-                0x0800081c                SystemClock_Config
+                0x0800080c       0x88 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/main.c.obj
+                0x0800080c                SystemClock_Config
  .text.startup.main
-                0x080008a4       0x28 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/main.c.obj
-                0x080008a4                main
+                0x08000894       0x28 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/main.c.obj
+                0x08000894                main
  .text.Error_Handler
-                0x080008cc        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/main.c.obj
-                0x080008cc                Error_Handler
+                0x080008bc        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/main.c.obj
+                0x080008bc                Error_Handler
  .text.MX_GPIO_Init
-                0x080008d0       0xac CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/gpio.c.obj
-                0x080008d0                MX_GPIO_Init
+                0x080008c0       0xac CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/gpio.c.obj
+                0x080008c0                MX_GPIO_Init
  .text.MX_CAN_Init
-                0x0800097c       0x3c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/can.c.obj
-                0x0800097c                MX_CAN_Init
+                0x0800096c       0x3c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/can.c.obj
+                0x0800096c                MX_CAN_Init
  .text.HAL_CAN_MspInit
-                0x080009b8       0x78 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/can.c.obj
-                0x080009b8                HAL_CAN_MspInit
+                0x080009a8       0x78 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/can.c.obj
+                0x080009a8                HAL_CAN_MspInit
  .text.MX_I2C1_Init
-                0x08000a30       0x7c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/i2c.c.obj
-                0x08000a30                MX_I2C1_Init
+                0x08000a20       0x7c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/i2c.c.obj
+                0x08000a20                MX_I2C1_Init
  .text.HAL_I2C_MspInit
-                0x08000aac       0x8c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/i2c.c.obj
-                0x08000aac                HAL_I2C_MspInit
+                0x08000a9c       0x8c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/i2c.c.obj
+                0x08000a9c                HAL_I2C_MspInit
  .text.MX_TIM6_Init
-                0x08000b38       0x54 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/tim.c.obj
-                0x08000b38                MX_TIM6_Init
+                0x08000b28       0x54 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/tim.c.obj
+                0x08000b28                MX_TIM6_Init
  .text.HAL_TIM_Base_MspInit
-                0x08000b8c       0x40 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/tim.c.obj
-                0x08000b8c                HAL_TIM_Base_MspInit
+                0x08000b7c       0x40 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/tim.c.obj
+                0x08000b7c                HAL_TIM_Base_MspInit
  .text.MX_USART2_UART_Init
-                0x08000bcc       0x3c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/usart.c.obj
-                0x08000bcc                MX_USART2_UART_Init
+                0x08000bbc       0x3c CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/usart.c.obj
+                0x08000bbc                MX_USART2_UART_Init
  .text.HAL_UART_MspInit
-                0x08000c08       0x94 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/usart.c.obj
-                0x08000c08                HAL_UART_MspInit
+                0x08000bf8       0x94 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/usart.c.obj
+                0x08000bf8                HAL_UART_MspInit
  .text.NMI_Handler
-                0x08000c9c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000c9c                NMI_Handler
+                0x08000c8c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000c8c                NMI_Handler
  .text.HardFault_Handler
-                0x08000ca0        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000ca0                HardFault_Handler
+                0x08000c90        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000c90                HardFault_Handler
  .text.MemManage_Handler
-                0x08000ca4        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000ca4                MemManage_Handler
+                0x08000c94        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000c94                MemManage_Handler
  .text.BusFault_Handler
-                0x08000ca8        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000ca8                BusFault_Handler
+                0x08000c98        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000c98                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000cac        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cac                UsageFault_Handler
+                0x08000c9c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000c9c                UsageFault_Handler
  .text.SVC_Handler
-                0x08000cb0        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cb0                SVC_Handler
+                0x08000ca0        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000ca0                SVC_Handler
  .text.DebugMon_Handler
-                0x08000cb4        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cb4                DebugMon_Handler
+                0x08000ca4        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000ca4                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000cb8        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cb8                PendSV_Handler
+                0x08000ca8        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000ca8                PendSV_Handler
  .text.SysTick_Handler
-                0x08000cbc        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cbc                SysTick_Handler
+                0x08000cac        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000cac                SysTick_Handler
  .text.CAN_RX0_IRQHandler
-                0x08000cc0        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cc0                CAN_RX0_IRQHandler
+                0x08000cb0        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000cb0                CAN_RX0_IRQHandler
  .text.I2C1_EV_IRQHandler
-                0x08000ccc        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000ccc                I2C1_EV_IRQHandler
+                0x08000cbc        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000cbc                I2C1_EV_IRQHandler
  .text.I2C1_ER_IRQHandler
-                0x08000cd8        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000cd8                I2C1_ER_IRQHandler
+                0x08000cc8        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000cc8                I2C1_ER_IRQHandler
  .text.TIM6_DAC1_IRQHandler
-                0x08000ce4        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000ce4                TIM6_DAC1_IRQHandler
+                0x08000cd4        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000cd4                TIM6_DAC1_IRQHandler
  .text.HAL_MspInit
-                0x08000cf0       0x30 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000cf0                HAL_MspInit
+                0x08000ce0       0x30 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000ce0                HAL_MspInit
  .text.HAL_CAN_Init
-                0x08000d20      0x100 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08000d20                HAL_CAN_Init
+                0x08000d10      0x100 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08000d10                HAL_CAN_Init
  .text.HAL_CAN_ConfigFilter
-                0x08000e20       0xf0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08000e20                HAL_CAN_ConfigFilter
+                0x08000e10       0xf0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08000e10                HAL_CAN_ConfigFilter
  .text.HAL_CAN_Start
-                0x08000f10       0x5c CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08000f10                HAL_CAN_Start
+                0x08000f00       0x5c CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08000f00                HAL_CAN_Start
  .text.HAL_CAN_AddTxMessage
-                0x08000f6c       0xa4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08000f6c                HAL_CAN_AddTxMessage
+                0x08000f5c       0xa4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08000f5c                HAL_CAN_AddTxMessage
  .text.HAL_CAN_GetRxMessage
-                0x08001010      0x108 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001010                HAL_CAN_GetRxMessage
+                0x08001000      0x108 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001000                HAL_CAN_GetRxMessage
  .text.HAL_CAN_ActivateNotification
-                0x08001118       0x24 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001118                HAL_CAN_ActivateNotification
+                0x08001108       0x24 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001108                HAL_CAN_ActivateNotification
  .text.HAL_CAN_TxMailbox0AbortCallback
-                0x0800113c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x0800113c                HAL_CAN_TxMailbox0AbortCallback
+                0x0800112c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x0800112c                HAL_CAN_TxMailbox0AbortCallback
  .text.HAL_CAN_TxMailbox1AbortCallback
-                0x08001140        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001140                HAL_CAN_TxMailbox1AbortCallback
+                0x08001130        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001130                HAL_CAN_TxMailbox1AbortCallback
  .text.HAL_CAN_TxMailbox2AbortCallback
-                0x08001144        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001144                HAL_CAN_TxMailbox2AbortCallback
+                0x08001134        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001134                HAL_CAN_TxMailbox2AbortCallback
  .text.HAL_CAN_RxFifo0FullCallback
-                0x08001148        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001148                HAL_CAN_RxFifo0FullCallback
+                0x08001138        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001138                HAL_CAN_RxFifo0FullCallback
  .text.HAL_CAN_RxFifo1MsgPendingCallback
-                0x0800114c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x0800114c                HAL_CAN_RxFifo1MsgPendingCallback
+                0x0800113c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x0800113c                HAL_CAN_RxFifo1MsgPendingCallback
  .text.HAL_CAN_RxFifo1FullCallback
-                0x08001150        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001150                HAL_CAN_RxFifo1FullCallback
+                0x08001140        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001140                HAL_CAN_RxFifo1FullCallback
  .text.HAL_CAN_SleepCallback
-                0x08001154        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001154                HAL_CAN_SleepCallback
+                0x08001144        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001144                HAL_CAN_SleepCallback
  .text.HAL_CAN_WakeUpFromRxMsgCallback
-                0x08001158        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001158                HAL_CAN_WakeUpFromRxMsgCallback
+                0x08001148        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001148                HAL_CAN_WakeUpFromRxMsgCallback
  .text.HAL_CAN_ErrorCallback
-                0x0800115c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x0800115c                HAL_CAN_ErrorCallback
+                0x0800114c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x0800114c                HAL_CAN_ErrorCallback
  .text.HAL_CAN_IRQHandler
-                0x08001160      0x2bc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
-                0x08001160                HAL_CAN_IRQHandler
+                0x08001150      0x2bc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+                0x08001150                HAL_CAN_IRQHandler
  .text.HAL_InitTick
-                0x0800141c       0x48 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x0800141c                HAL_InitTick
+                0x0800140c       0x48 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x0800140c                HAL_InitTick
  .text.HAL_Init
-                0x08001464       0x24 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x08001464                HAL_Init
+                0x08001454       0x24 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001454                HAL_Init
  .text.HAL_IncTick
-                0x08001488       0x18 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x08001488                HAL_IncTick
+                0x08001478       0x18 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001478                HAL_IncTick
  .text.HAL_GetTick
-                0x080014a0        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x080014a0                HAL_GetTick
+                0x08001490        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001490                HAL_GetTick
  .text.HAL_RCC_OscConfig
-                0x080014ac      0x584 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x080014ac                HAL_RCC_OscConfig
+                0x0800149c      0x584 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x0800149c                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08001a30      0x1a0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001a30                HAL_RCC_ClockConfig
+                0x08001a20      0x1a0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001a20                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001bd0       0x50 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001bd0                HAL_RCC_GetSysClockFreq
+                0x08001bc0       0x50 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001bc0                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001c20       0x30 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001c20                HAL_RCC_GetPCLK1Freq
+                0x08001c10       0x30 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001c10                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001c50       0x30 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001c50                HAL_RCC_GetPCLK2Freq
+                0x08001c40       0x30 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001c40                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08001c80      0x164 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-                0x08001c80                HAL_RCCEx_PeriphCLKConfig
+                0x08001c70      0x164 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+                0x08001c70                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_GPIO_Init
-                0x08001de4      0x1d8 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08001de4                HAL_GPIO_Init
+                0x08001dd4      0x1d8 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x08001dd4                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x08001fbc        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08001fbc                HAL_GPIO_ReadPin
+                0x08001fac        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x08001fac                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x08001fc8        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08001fc8                HAL_GPIO_WritePin
+                0x08001fb8        0xc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x08001fb8                HAL_GPIO_WritePin
  .text.HAL_DMA_Abort_IT
-                0x08001fd4       0x40 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-                0x08001fd4                HAL_DMA_Abort_IT
+                0x08001fc4       0x40 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+                0x08001fc4                HAL_DMA_Abort_IT
  .text.HAL_DMA_GetState
-                0x08002014        0x8 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-                0x08002014                HAL_DMA_GetState
+                0x08002004        0x8 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+                0x08002004                HAL_DMA_GetState
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800201c       0x24 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x0800201c                HAL_NVIC_SetPriorityGrouping
+                0x0800200c       0x24 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x0800200c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08002040       0x78 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x08002040                HAL_NVIC_SetPriority
+                0x08002030       0x78 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x08002030                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x080020b8       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x080020b8                HAL_NVIC_EnableIRQ
+                0x080020a8       0x1c CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x080020a8                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x080020d4       0x34 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x080020d4                HAL_SYSTICK_Config
+                0x080020c4       0x34 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x080020c4                HAL_SYSTICK_Config
  .text.HAL_I2C_Init
-                0x08002108       0xb4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08002108                HAL_I2C_Init
+                0x080020f8       0xb4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x080020f8                HAL_I2C_Init
  .text.HAL_I2C_Mem_Read_IT
-                0x080021bc       0xbc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x080021bc                HAL_I2C_Mem_Read_IT
+                0x080021ac       0xbc CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x080021ac                HAL_I2C_Mem_Read_IT
  .text.HAL_I2C_EV_IRQHandler
-                0x08002278       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08002278                HAL_I2C_EV_IRQHandler
+                0x08002268       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002268                HAL_I2C_EV_IRQHandler
  .text.HAL_I2C_MasterTxCpltCallback
-                0x08002288        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08002288                HAL_I2C_MasterTxCpltCallback
+                0x08002278        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002278                HAL_I2C_MasterTxCpltCallback
  .text.HAL_I2C_MasterRxCpltCallback
-                0x0800228c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x0800228c                HAL_I2C_MasterRxCpltCallback
+                0x0800227c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x0800227c                HAL_I2C_MasterRxCpltCallback
  .text.HAL_I2C_SlaveTxCpltCallback
-                0x08002290        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08002290                HAL_I2C_SlaveTxCpltCallback
+                0x08002280        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002280                HAL_I2C_SlaveTxCpltCallback
  .text.HAL_I2C_SlaveRxCpltCallback
-                0x08002294        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08002294                HAL_I2C_SlaveRxCpltCallback
+                0x08002284        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002284                HAL_I2C_SlaveRxCpltCallback
  .text.I2C_ITSlaveSeqCplt
-                0x08002298       0xa0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002288       0xa0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.HAL_I2C_AddrCallback
-                0x08002338        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08002338                HAL_I2C_AddrCallback
+                0x08002328        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002328                HAL_I2C_AddrCallback
  .text.I2C_ITAddrCplt.part.0.constprop.0
-                0x0800233c       0x64 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x0800232c       0x64 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.HAL_I2C_ListenCpltCallback
-                0x080023a0        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x080023a0                HAL_I2C_ListenCpltCallback
+                0x08002390        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002390                HAL_I2C_ListenCpltCallback
  .text.HAL_I2C_MemTxCpltCallback
-                0x080023a4        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x080023a4                HAL_I2C_MemTxCpltCallback
+                0x08002394        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002394                HAL_I2C_MemTxCpltCallback
  .text.HAL_I2C_ErrorCallback
-                0x080023a8        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x080023a8                HAL_I2C_ErrorCallback
+                0x08002398        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002398                HAL_I2C_ErrorCallback
  .text.HAL_I2C_AbortCpltCallback
-                0x080023ac        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x080023ac                HAL_I2C_AbortCpltCallback
+                0x0800239c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x0800239c                HAL_I2C_AbortCpltCallback
  .text.I2C_DMAAbort
-                0x080023b0       0x40 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x080023a0       0x40 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.I2C_ITError
-                0x080023f0      0x168 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x080023e0      0x168 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.I2C_ITMasterCplt
-                0x08002558      0x124 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002548      0x124 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.I2C_Mem_ISR_IT
-                0x0800267c      0x210 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x0800266c      0x210 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.HAL_I2C_ER_IRQHandler
-                0x0800288c       0x7c CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x0800288c                HAL_I2C_ER_IRQHandler
+                0x0800287c       0x7c CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x0800287c                HAL_I2C_ER_IRQHandler
  .text.I2C_ITSlaveCplt.constprop.0
-                0x08002908      0x2a0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x080028f8      0x2a0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.I2C_Slave_ISR_IT
-                0x08002ba8      0x1a8 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08002b98      0x1a8 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x08002d50       0x54 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-                0x08002d50                HAL_I2CEx_ConfigAnalogFilter
+                0x08002d40       0x54 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+                0x08002d40                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x08002da4       0x58 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-                0x08002da4                HAL_I2CEx_ConfigDigitalFilter
+                0x08002d94       0x58 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+                0x08002d94                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_TIM_Base_Init
-                0x08002dfc      0x100 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002dfc                HAL_TIM_Base_Init
+                0x08002dec      0x100 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002dec                HAL_TIM_Base_Init
  .text.HAL_TIM_Base_Start_IT
-                0x08002efc       0x60 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002efc                HAL_TIM_Base_Start_IT
+                0x08002eec       0x60 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002eec                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x08002f5c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002f5c                HAL_TIM_OC_DelayElapsedCallback
+                0x08002f4c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002f4c                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x08002f60        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002f60                HAL_TIM_IC_CaptureCallback
+                0x08002f50        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002f50                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x08002f64        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002f64                HAL_TIM_PWM_PulseFinishedCallback
+                0x08002f54        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002f54                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x08002f68        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002f68                HAL_TIM_TriggerCallback
+                0x08002f58        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002f58                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x08002f6c      0x158 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002f6c                HAL_TIM_IRQHandler
+                0x08002f5c      0x158 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002f5c                HAL_TIM_IRQHandler
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x080030c4       0x74 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x080030c4                HAL_TIMEx_MasterConfigSynchronization
+                0x080030b4       0x74 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x080030b4                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x08003138        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x08003138                HAL_TIMEx_CommutCallback
+                0x08003128        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x08003128                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x0800313c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x0800313c                HAL_TIMEx_BreakCallback
+                0x0800312c        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x0800312c                HAL_TIMEx_BreakCallback
  .text.HAL_TIMEx_Break2Callback
-                0x08003140        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x08003140                HAL_TIMEx_Break2Callback
+                0x08003130        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x08003130                HAL_TIMEx_Break2Callback
  .text.HAL_UART_Transmit
-                0x08003144       0xe0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08003144                HAL_UART_Transmit
+                0x08003134       0xe0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08003134                HAL_UART_Transmit
  .text.UART_AdvFeatureConfig
-                0x08003224       0xb0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08003224                UART_AdvFeatureConfig
+                0x08003214       0xb0 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08003214                UART_AdvFeatureConfig
  .text.UART_CheckIdleState
-                0x080032d4      0x250 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x080032d4                UART_CheckIdleState
+                0x080032c4      0x250 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x080032c4                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x08003524      0x1e4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08003524                HAL_UART_Init
+                0x08003514      0x1e4 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08003514                HAL_UART_Init
  .text.SystemInit
-                0x08003708       0x14 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/system_stm32f3xx.c.obj
-                0x08003708                SystemInit
- .text._sbrk    0x0800371c       0x44 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/sysmem.c.obj
-                0x0800371c                _sbrk
+                0x080036f8       0x14 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/system_stm32f3xx.c.obj
+                0x080036f8                SystemInit
+ .text._sbrk    0x0800370c       0x44 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/sysmem.c.obj
+                0x0800370c                _sbrk
  .text.Reset_Handler
-                0x08003760       0x50 CMakeFiles/JikiEncoderBoard_v1.dir/startup_stm32f303x8.s.obj
-                0x08003760                Reset_Handler
+                0x08003750       0x50 CMakeFiles/JikiEncoderBoard_v1.dir/startup_stm32f303x8.s.obj
+                0x08003750                Reset_Handler
  .text.Default_Handler
-                0x080037b0        0x2 CMakeFiles/JikiEncoderBoard_v1.dir/startup_stm32f303x8.s.obj
-                0x080037b0                RTC_Alarm_IRQHandler
-                0x080037b0                TIM1_CC_IRQHandler
-                0x080037b0                PVD_IRQHandler
-                0x080037b0                TAMP_STAMP_IRQHandler
-                0x080037b0                EXTI3_IRQHandler
-                0x080037b0                EXTI0_IRQHandler
-                0x080037b0                FPU_IRQHandler
-                0x080037b0                CAN_TX_IRQHandler
-                0x080037b0                TIM1_UP_TIM16_IRQHandler
-                0x080037b0                ADC1_2_IRQHandler
-                0x080037b0                SPI1_IRQHandler
-                0x080037b0                CAN_SCE_IRQHandler
-                0x080037b0                DMA1_Channel4_IRQHandler
-                0x080037b0                USART3_IRQHandler
-                0x080037b0                DMA1_Channel7_IRQHandler
-                0x080037b0                TIM7_DAC2_IRQHandler
-                0x080037b0                CAN_RX1_IRQHandler
-                0x080037b0                DMA1_Channel6_IRQHandler
-                0x080037b0                TIM3_IRQHandler
-                0x080037b0                RCC_IRQHandler
-                0x080037b0                DMA1_Channel1_IRQHandler
-                0x080037b0                Default_Handler
-                0x080037b0                EXTI15_10_IRQHandler
-                0x080037b0                COMP2_IRQHandler
-                0x080037b0                EXTI9_5_IRQHandler
-                0x080037b0                RTC_WKUP_IRQHandler
-                0x080037b0                DMA1_Channel5_IRQHandler
-                0x080037b0                EXTI4_IRQHandler
-                0x080037b0                TIM1_TRG_COM_TIM17_IRQHandler
-                0x080037b0                DMA1_Channel3_IRQHandler
-                0x080037b0                WWDG_IRQHandler
-                0x080037b0                TIM2_IRQHandler
-                0x080037b0                EXTI1_IRQHandler
-                0x080037b0                COMP4_6_IRQHandler
-                0x080037b0                USART2_IRQHandler
-                0x080037b0                DMA1_Channel2_IRQHandler
-                0x080037b0                FLASH_IRQHandler
-                0x080037b0                USART1_IRQHandler
-                0x080037b0                EXTI2_TSC_IRQHandler
-                0x080037b0                TIM1_BRK_TIM15_IRQHandler
+                0x080037a0        0x2 CMakeFiles/JikiEncoderBoard_v1.dir/startup_stm32f303x8.s.obj
+                0x080037a0                RTC_Alarm_IRQHandler
+                0x080037a0                TIM1_CC_IRQHandler
+                0x080037a0                PVD_IRQHandler
+                0x080037a0                TAMP_STAMP_IRQHandler
+                0x080037a0                EXTI3_IRQHandler
+                0x080037a0                EXTI0_IRQHandler
+                0x080037a0                FPU_IRQHandler
+                0x080037a0                CAN_TX_IRQHandler
+                0x080037a0                TIM1_UP_TIM16_IRQHandler
+                0x080037a0                ADC1_2_IRQHandler
+                0x080037a0                SPI1_IRQHandler
+                0x080037a0                CAN_SCE_IRQHandler
+                0x080037a0                DMA1_Channel4_IRQHandler
+                0x080037a0                USART3_IRQHandler
+                0x080037a0                DMA1_Channel7_IRQHandler
+                0x080037a0                TIM7_DAC2_IRQHandler
+                0x080037a0                CAN_RX1_IRQHandler
+                0x080037a0                DMA1_Channel6_IRQHandler
+                0x080037a0                TIM3_IRQHandler
+                0x080037a0                RCC_IRQHandler
+                0x080037a0                DMA1_Channel1_IRQHandler
+                0x080037a0                Default_Handler
+                0x080037a0                EXTI15_10_IRQHandler
+                0x080037a0                COMP2_IRQHandler
+                0x080037a0                EXTI9_5_IRQHandler
+                0x080037a0                RTC_WKUP_IRQHandler
+                0x080037a0                DMA1_Channel5_IRQHandler
+                0x080037a0                EXTI4_IRQHandler
+                0x080037a0                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080037a0                DMA1_Channel3_IRQHandler
+                0x080037a0                WWDG_IRQHandler
+                0x080037a0                TIM2_IRQHandler
+                0x080037a0                EXTI1_IRQHandler
+                0x080037a0                COMP4_6_IRQHandler
+                0x080037a0                USART2_IRQHandler
+                0x080037a0                DMA1_Channel2_IRQHandler
+                0x080037a0                FLASH_IRQHandler
+                0x080037a0                USART1_IRQHandler
+                0x080037a0                EXTI2_TSC_IRQHandler
+                0x080037a0                TIM1_BRK_TIM15_IRQHandler
  .text.__aeabi_atexit
-                0x080037b2        0xa /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
-                0x080037b2                __aeabi_atexit
+                0x080037a2        0xa /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+                0x080037a2                __aeabi_atexit
  .text.__cxa_atexit
-                0x080037bc       0x1c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-cxa_atexit.o)
-                0x080037bc                __cxa_atexit
+                0x080037ac       0x1c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-cxa_atexit.o)
+                0x080037ac                __cxa_atexit
  .text._vsnprintf_r
-                0x080037d8       0x56 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-vsnprintf.o)
-                0x080037d8                _vsnprintf_r
-                0x080037d8                _vsniprintf_r
- *fill*         0x0800382e        0x2 
+                0x080037c8       0x56 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-vsnprintf.o)
+                0x080037c8                _vsnprintf_r
+                0x080037c8                _vsniprintf_r
+ *fill*         0x0800381e        0x2 
  .text.vsnprintf
-                0x08003830       0x1c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-vsnprintf.o)
-                0x08003830                vsnprintf
-                0x08003830                vsniprintf
- .text.__errno  0x0800384c        0xc /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
-                0x0800384c                __errno
+                0x08003820       0x1c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-vsnprintf.o)
+                0x08003820                vsnprintf
+                0x08003820                vsniprintf
+ .text.__errno  0x0800383c        0xc /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+                0x0800383c                __errno
  .text.__libc_init_array
-                0x08003858       0x48 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
-                0x08003858                __libc_init_array
+                0x08003848       0x48 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                0x08003848                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x080038a0        0x2 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x080038a0                __retarget_lock_acquire_recursive
+                0x08003890        0x2 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x08003890                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080038a2        0x2 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x080038a2                __retarget_lock_release_recursive
- .text._free_r  0x080038a4       0x94 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
-                0x080038a4                _free_r
+                0x08003892        0x2 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x08003892                __retarget_lock_release_recursive
+ .text._free_r  0x08003894       0x94 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+                0x08003894                _free_r
  .text.sbrk_aligned
-                0x08003938       0x44 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x08003928       0x44 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x0800397c      0x100 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
-                0x0800397c                _malloc_r
+                0x0800396c      0x100 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x0800396c                _malloc_r
  .text.__malloc_lock
-                0x08003a7c        0xc /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
-                0x08003a7c                __malloc_lock
+                0x08003a6c        0xc /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                0x08003a6c                __malloc_lock
  .text.__malloc_unlock
-                0x08003a88        0xc /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
-                0x08003a88                __malloc_unlock
+                0x08003a78        0xc /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                0x08003a78                __malloc_unlock
  .text.__ssputs_r
-                0x08003a94       0xb6 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
-                0x08003a94                __ssputs_r
- *fill*         0x08003b4a        0x2 
+                0x08003a84       0xb6 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08003a84                __ssputs_r
+ *fill*         0x08003b3a        0x2 
  .text._svfprintf_r
-                0x08003b4c      0x1f8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
-                0x08003b4c                _svfprintf_r
-                0x08003b4c                _svfiprintf_r
+                0x08003b3c      0x1f8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08003b3c                _svfprintf_r
+                0x08003b3c                _svfiprintf_r
  .text._printf_common
-                0x08003d44       0xda /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08003d44                _printf_common
- *fill*         0x08003e1e        0x2 
+                0x08003d34       0xda /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08003d34                _printf_common
+ *fill*         0x08003e0e        0x2 
  .text._printf_i
-                0x08003e20      0x240 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08003e20                _printf_i
- .text.memmove  0x08004060       0x34 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memmove.o)
-                0x08004060                memmove
- .text._sbrk_r  0x08004094       0x20 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
-                0x08004094                _sbrk_r
- .text.memcpy   0x080040b4       0x1c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
-                0x080040b4                memcpy
+                0x08003e10      0x240 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08003e10                _printf_i
+ .text.memmove  0x08004050       0x34 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memmove.o)
+                0x08004050                memmove
+ .text._sbrk_r  0x08004084       0x20 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+                0x08004084                _sbrk_r
+ .text.memcpy   0x080040a4       0x1c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                0x080040a4                memcpy
  .text._realloc_r
-                0x080040d0       0x5c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reallocr.o)
-                0x080040d0                _realloc_r
+                0x080040c0       0x5c /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reallocr.o)
+                0x080040c0                _realloc_r
  .text._malloc_usable_size_r
-                0x0800412c       0x10 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-msizer.o)
-                0x0800412c                _malloc_usable_size_r
+                0x0800411c       0x10 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-msizer.o)
+                0x0800411c                _malloc_usable_size_r
  *(.glue_7)
- .glue_7        0x0800413c        0x0 linker stubs
+ .glue_7        0x0800412c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800413c        0x0 linker stubs
+ .glue_7t       0x0800412c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800413c        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0800412c        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0800413c        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800413c                _init
- .init          0x08004140        0x8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0800412c        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0800412c                _init
+ .init          0x08004130        0x8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08004148        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08004148                _fini
- .fini          0x0800414c        0x8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08004154                        . = ALIGN (0x4)
-                0x08004154                        _etext = .
+ .fini          0x08004138        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004138                _fini
+ .fini          0x0800413c        0x8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08004144                        . = ALIGN (0x4)
+                0x08004144                        _etext = .
 
-.vfp11_veneer   0x08004154        0x0
- .vfp11_veneer  0x08004154        0x0 linker stubs
+.vfp11_veneer   0x08004144        0x0
+ .vfp11_veneer  0x08004144        0x0 linker stubs
 
-.v4_bx          0x08004154        0x0
- .v4_bx         0x08004154        0x0 linker stubs
+.v4_bx          0x08004144        0x0
+ .v4_bx         0x08004144        0x0 linker stubs
 
-.iplt           0x08004154        0x0
- .iplt          0x08004154        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08004144        0x0
+ .iplt          0x08004144        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08004154       0x84
-                0x08004154                        . = ALIGN (0x4)
+.rodata         0x08004144       0x84
+                0x08004144                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata._ZN8UserCode13cpp_main_initEv.str1.4
-                0x08004154       0x11 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
- *fill*         0x08004165        0x3 
+                0x08004144       0x11 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+ *fill*         0x08004155        0x3 
  .rodata.aPredivFactorTable
-                0x08004168       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08004158       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
  .rodata.aPLLMULFactorTable
-                0x08004178       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08004168       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
  .rodata.CSWTCH.53
-                0x08004188        0x3 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- *fill*         0x0800418b        0x1 
+                0x08004178        0x3 CMakeFiles/JikiEncoderBoard_v1.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ *fill*         0x0800417b        0x1 
  .rodata.APBPrescTable
-                0x0800418c        0x8 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/system_stm32f3xx.c.obj
-                0x0800418c                APBPrescTable
+                0x0800417c        0x8 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/system_stm32f3xx.c.obj
+                0x0800417c                APBPrescTable
  .rodata.AHBPrescTable
-                0x08004194       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/system_stm32f3xx.c.obj
-                0x08004194                AHBPrescTable
+                0x08004184       0x10 CMakeFiles/JikiEncoderBoard_v1.dir/Core/Src/system_stm32f3xx.c.obj
+                0x08004184                AHBPrescTable
  .rodata._svfprintf_r.str1.1
-                0x080041a4       0x11 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08004194       0x11 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x080041b5       0x22 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x080041d8                        . = ALIGN (0x4)
- *fill*         0x080041d7        0x1 
+                0x080041a5       0x22 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x080041c8                        . = ALIGN (0x4)
+ *fill*         0x080041c7        0x1 
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x080041d8        0x8
-                0x080041d8                        __exidx_start = .
+.ARM            0x080041c8        0x8
+                0x080041c8                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x080041d8        0x8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
- .ARM.exidx     0x080041e0        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memchr.o)
+ .ARM.exidx     0x080041c8        0x8 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x080041d0        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
-                0x080041e0                        __exidx_end = .
+                0x080041d0                        __exidx_end = .
 
-.rel.dyn        0x080041e0        0x0
- .rel.iplt      0x080041e0        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x080041d0        0x0
+ .rel.iplt      0x080041d0        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x080041e0        0x0
-                0x080041e0                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080041d0        0x0
+                0x080041d0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080041e0                        PROVIDE (__preinit_array_end = .)
+                0x080041d0                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x080041e0        0x8
-                0x080041e0                        PROVIDE (__init_array_start = .)
+.init_array     0x080041d0        0x8
+                0x080041d0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080041e0        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
- .init_array    0x080041e4        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
-                0x080041e8                        PROVIDE (__init_array_end = .)
+ .init_array    0x080041d0        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .init_array    0x080041d4        0x4 CMakeFiles/JikiEncoderBoard_v1.dir/UserCode/cpp_main.cpp.obj
+                0x080041d8                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x080041e8        0x4
+.fini_array     0x080041d8        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080041e8        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x080041d8        0x4 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x080041ec                        _sidata = LOADADDR (.data)
+                0x080041dc                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x60 load address 0x080041ec
+.data           0x20000000       0x60 load address 0x080041dc
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -1904,12 +1904,12 @@ LOAD /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x20000014                _impure_data
                 0x20000060                        . = ALIGN (0x4)
                 0x20000060                        _edata = .
-                0x0800424c                        _siccmram = LOADADDR (.ccmram)
+                0x0800423c                        _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x20000060        0x0 load address 0x0800424c
+.igot.plt       0x20000060        0x0 load address 0x0800423c
  .igot.plt      0x20000060        0x0 /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x0800424c
+.ccmram         0x10000000        0x0 load address 0x0800423c
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        _sccmram = .
  *(.ccmram)

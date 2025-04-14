@@ -105,7 +105,7 @@ namespace UserCode
 
 
         while(0 < master_can.get_rx_busy_level()){
-            stmlib_v1::CanPacket rx_packet;
+            stmlib_v1::CanPacket rx_packet = {};
             master_can.rx(rx_packet);
             if(rx_packet.packet_id == 0x200){
                 as5600_i2c.reset_angle();
